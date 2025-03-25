@@ -2,6 +2,8 @@
 
 # Introduction
 
+Ref: https://wiki.ietf.org/en/group/iab/IAB_Workshop_Guidelines
+
 REPLACE THIS TEXT 
 
 The IAB organized a workshop in June 2002 to establish a dialog between network operators and protocol developers, and to guide IETF when working on network management protocols. The outcome of that workshop was documented in the "Overview of the 2002 IAB Network Management Workshop" [RFC3535] which identified 14 operator requirements for consideration in future network management protocol design and related data models, along with some recommendations for the IETF.
