@@ -1,4 +1,4 @@
-# IAB workshop on the IP Geolocation File Distribution (GeoIP)
+# IAB workshop on IP Geolocation File Distribution (GeoIP)
 
 # Introduction
 
