@@ -1,6 +1,6 @@
 # IAB workshop on the IP Geolocation File Distribution (GeoIP)
 
-## Introduction
+# Introduction
 
 REPLACE THIS TEXT 
 
@@ -14,11 +14,30 @@ Review the outcomes and results of the 2002 workshop (current deployments, state
 Sketch new requirements for future network management operations in a collaborative manner with the industry, network operators, and protocol engineers.
 Develop a plan of action and recommendations for the IETF.
 
+## In-Scope Topics
+The following topics are considered in-scope; however, this list is non-exhaustive:
+
+Actionable requirements for network management, including:
+Troubleshooting needs
+Metrics for network performance measurements
+Requirements for security functions
+Proposals or reports on improvements to network management
+Ways to support evolving, encrypted traffic better
+Measurement techniques for encrypted traffic
+New privacy-preserving active measurement methods
+Direct communication with endpoints or applications
+Secure and privacy-preserving data collection, storage, and sharing
+Adoption of encryption for the management functions themselves
+
 ## Out of scope topics
 
 XXX
 
-## Pre-Workshop Information Gathering & Outreach
+# Expected Output
+
+XXXX
+
+# Pre-Workshop Information Gathering & Outreach
 
 REPLACE THIS TEXT 
 
@@ -28,7 +47,7 @@ Under this effort, we expect some workshop participants to stimulate an outreach
 
 The mailing list nemops-interest@iab.org will be used for outreach events at other conferences, general announcements, and related discussions before (and after) the workshop.
 
-## Workshop
+# Workshop
 
 REPLACE/UPDATE THIS TEXT 
 
@@ -42,7 +61,7 @@ Additionally, we request network operators to complete the survey to help us bet
 
 The online workshop would likely be three 2-3h sessions spread over the week based on submissions and the availability of the invited participants.
 
-### Logistics This workshop will be held online.
+## Logistics This workshop will be held online.
 
 REPLACE/UPDATE THIS TEXT 
 
