@@ -1,53 +1,48 @@
-# IAB workshop on IP Geolocation (IP-Geo)
+# IAB Workshop on IP Geolocation (IP-Geo)
 
 # Introduction
 
-Ref: https://wiki.ietf.org/en/group/iab/IAB_Workshop_Guidelines
+This workshop aims to understand the current use cases for publishing and consuming IP address geolocation data. It will explore current methods for publishing this type of data, as well as how the data feeds are discovered and used. It will identify any gaps or other issues, such as uniform methods for discovering an IP-geo data feed, how it can be validated to establish trust and authority, how it can balance end user privacy and localization, and how current practices might be improved. 
 
-REPLACE THIS TEXT 
-
-The IAB organized a workshop in June 2002 to establish a dialog between network operators and protocol developers, and to guide IETF when working on network management protocols. The outcome of that workshop was documented in the "Overview of the 2002 IAB Network Management Workshop" [RFC3535] which identified 14 operator requirements for consideration in future network management protocol design and related data models, along with some recommendations for the IETF.
-
-Those requirements were instrumental in developing first the NETCONF protocol (in the NETCONF Working Group) [RFC6241], the associated YANG data modeling language (in the NETMOD Working Group) [RFC7950], RESTCONF [RFC8040], and most recently CORECONF [I-D.ietf-core-comi].
-
-It has been more than 20 years since that IAB workshop, and it is time to evaluate what has been achieved since the original workshop and what recommendations and requirements have changed or still need to be addressed. This new workshop aims to discuss the following key topics:
-
-Review the outcomes and results of the 2002 workshop (current deployments, state of the art) and identify any operational barriers that prevent these technologies from being widely implemented (limitations, hurdles).
-Sketch new requirements for future network management operations in a collaborative manner with the industry, network operators, and protocol engineers.
-Develop a plan of action and recommendations for the IETF.
+The IAB is looking for short position papers on the following topics; however, this list is non-exhaustive and should be interpreted broadly:
+* RFC 8805 [1] Discussion: Who is using this RFC, either as a publisher or consumer? What works well or could be improved in this specification?
+* Streaming Video Technology Alliance (SVTA) IP Geolocation Specification Discussion: Who is using this specification, either as a publisher or consumer? What works well or could be improved in this specification? Why didn't users of this specification leverage RFC 8805?
+* Other Formats: Are there other specifications or widely used practices for publishing and consuming this data that should be explored?
+* Discovery Discussion: Are feeds easily discovered today? Should there be a uniform discovery method, such as a well-known URI scheme or some standard mechanism for publishing & discovering feeds?
+* Error Reporting: When errors are discovered, how are these reported back to publishers?
+* Trust Discussion: How can a consumer of an ip-geo data feed trust that a publisher is authoritative for a given block of IP addresses? Is there a method to use RPKI signing extensions or some other method that would be appropriate?
+* Privacy Discussion: How geographically precise does an ip-geo data file need to be in order to balance the need for localization against the ability to identify specific end users?
+* IPv6 vs IPv4 Discussion: Should any new standard focus only on IPv6, or should it be extended to IPv4? Why or why not?
 
 ## In-Scope Topics
 The following topics are considered in-scope; however, this list is non-exhaustive:
 
-Actionable requirements for network management, including:
-Troubleshooting needs
-Metrics for network performance measurements
-Requirements for security functions
-Proposals or reports on improvements to network management
-Ways to support evolving, encrypted traffic better
-Measurement techniques for encrypted traffic
-New privacy-preserving active measurement methods
-Direct communication with endpoints or applications
-Secure and privacy-preserving data collection, storage, and sharing
-Adoption of encryption for the management functions themselves
+Actionable requirements for IP address geolocation, including:
+* Formatting of IP-geo files
+* Frequency of updating IP-geo data
+* Methods of publishing or distributing IP-geo data
+* Methods of discoveing, validating, and consuming IP-geo data
+* Reporting errors to publishers
+* Trust establishment
+* Privacy protection
+* IPv6 and IPv4 
 
 ## Out of scope topics
 
-XXX
+* Issues not related to the technical aspects of publishing and consuming IP address geolocation data, particularly related to local laws on data privacy or data protection.
 
 # Expected Output
 
-XXXX
+* Workshop report
+* Depending upon the discussion, the start of a new specification for IP Address Geolocation
 
 # Pre-Workshop Information Gathering & Outreach
 
-REPLACE THIS TEXT 
+The most interested parties are likely to be Internet Service Providers (ISPs), as well as operators of Virtual Private Networks and Privacy Proxy Networks (e.g., using MASQUE). These parties are publishers of IP Address Geolocation data. Also interested will be content destinations that wish to perform content localization, particularly video streaming providers (given video streaming is tha majority of peak-hour volume on the internet) and Content Delivery Networks (CDNs). Finally there are a number of major IP geolocation value added providers that collect and aggregate this data today, in order to serve content destination provider needs. There are of course many other current users of this data; these examples are not intended to be exclusive. 
 
-In 2002, many network operators attended IETF meetings and participated in network management protocol discussions. Direct IETF participation from network operators has since decreased, with many operators focusing on conferences that are more central to their needs (RIPE, NANOG, APRICOT, AutoConn, etc.).
+Outreach should thus be to member of Regional Internet Registries (RIRs), which assign IP addresses to the aforementioned providers, as well as to the many Network Operator Groups (NOGs) around the world. In addition, outreach to major video streamers can be achieved via the SVTA and similar industry groups. 
 
-Under this effort, we expect some workshop participants to stimulate an outreach effort to attract opinions and interest by visiting these other venues and running information and requirement-gathering sessions. This series of outreach efforts will result in workshop position papers that will provide valuable summarized feedback to the online NEMOPS Workshop.
-
-The mailing list nemops-interest@iab.org will be used for outreach events at other conferences, general announcements, and related discussions before (and after) the workshop.
+The mailing list ip-geo-workshop@iab.org will be used for general announcements and related discussions before (and after) the workshop.
 
 # Workshop
 
@@ -65,8 +60,6 @@ The online workshop would likely be three 2-3h sessions spread over the week bas
 
 ## Logistics This workshop will be held online.
 
-REPLACE/UPDATE THIS TEXT 
-
 Initial submissions due: 2024-11-17 EOD (Earlier submissions are appreciated)
 Survey responses due: 2024-11-17 EOD
 Invitations Issued by: 2024-11-27 EOD
@@ -74,3 +67,45 @@ Workshop Dates : TBD -- Maybe June, July, or Sept
 Workshop Times: 15:00-18:00 UTC (TBD)
 Program Committee: TBD
 Feel free to contact the Program Committee with any further questions: XXXX.
+
+
+# Mailing List Info
+
+Name   		IAB Workshop on IP Address Geolocation (IP-Geo)
+Acronym		ip-geo
+
+Personnel (Co-Chairs & Program Committee)
+Jana Iyengar
+Warren Kumari
+Jason Livingood
+Tommy Pauly
+
+Group Description
+
+This workshop aims to understand the current use cases for publishing and consuming IP address geolocation data. It will explore current methods for publishing this type of data, as well as how the data feeds are discovered and used. It will identify any gaps or other issues, such as uniform methods for discovering an IP-geo data feed, how it can be validated to establish trust and authority, how it can balance end user privacy and localization, and how current practices might be improved. 
+
+The IAB is looking for short position papers on the following topics; however, this list is non-exhaustive and should be interpreted broadly:
+* RFC 8805 [1] Discussion: Who is using this RFC, either as a publisher or consumer? What works well or could be improved in this specification?
+* Streaming Video Technology Alliance (SVTA) IP Geolocation Specification Discussion: Who is using this specification, either as a publisher or consumer? What works well or could be improved in this specification? Why didn't users of this specification leverage RFC 8805?
+* Other Formats: Are there other specifications or widely used practices for publishing and consuming this data that should be explored?
+* Discovery Discussion: Are feeds easily discovered today? Should there be a uniform discovery method, such as a well-known URI scheme or some standard mechanism for publishing & discovering feeds? 
+* Trust Discussion: How can a consumer of an ip-geo data feed trust that a publisher is authoritative for a given block of IP addresses? Is there a method to use RPKI signing extensions or some other method that would be appropriate?
+* Privacy Discussion: How geographically precise does an ip-geo data file need to be in order to balance the need for localization against the ability to identify specific end users?
+* IPv6 vs IPv4 Discussion: Should any new standard focus only on IPv6, or should it be extended to IPv4? Why or why not?
+
+
+All inputs submitted and considered relevant will be published on the workshop website. The organizers will issue invitations based on the submissions received. Sessions will be organized according to content, and not every accepted submission or invited attendee will have an opportunity to present; the intent is to foster an active discussion and not simply to have a sequence of presentations. A workshop report covering all submissions and the workshop discussion will be published afterwards.
+
+The workshop will be by invitation only. Those wishing to attend should submit a 1 - 3 page position paper to address the above topics and questions. Position papers from those not planning to attend the workshop themselves are also encouraged.
+
+Please indicate your interest by submitting a research proposal by June 1, 2025 to ip-geo-workshop-pc@iab.org
+
+The Program Committee members are Jana Iyengar (IAB, Fastly), Warren Kumari (IAB, Google), Jason Livingood (IAB, Comcast), Tommy Pauly (IAB, Apple).
+
+Feel free to contact the program committee with any further questions: ip-geo-workshop-pc@iab.org.
+
+This workshop will be held online during the week of XXXX, likely supporting three 2-3 hour sessions spread over the week based on submissions and the availability of the invited participants.
+
+[1] https://www.rfc-editor.org/rfc/rfc8805.html
+[2] https://github.com/intarchboard/responsibilities/issues/26#:~:text=for%20streaming%20video-,SVTA5010%2DGeo%2DData%2DFor%2DIPV6_v1%2D2_08212023%2D9biq1v.pdf,-.%20One%20example%20of
+
