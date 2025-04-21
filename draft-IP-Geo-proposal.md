@@ -46,26 +46,23 @@ The mailing list ip-geo-workshop@iab.org will be used for general announcements 
 
 # Workshop
 
-REPLACE/UPDATE THIS TEXT 
+Interested participants in the workshop are invited to submit position papers on the workshop topics. There are no restrictions on the format but submission as PDF is preferred. Paper length is limited to 3 pages; brevity is encouraged. Interested participants who have published relevant academic papers may submit these as a position paper, optionally with a short abstract explaining their interest and the paper’s relevance to the workshop. The workshop itself will be focused on discussions based on the position paper topics received.
 
-Interested participants in the workshop are invited to submit position papers on the workshop topics. There are no restrictions on the format. Participants can choose their preferred format, including Internet-Drafts, text- or word-based documents, or papers formatted similarly to academic publication venues. Submission as PDF is preferred. Paper size is not limited, but brevity is encouraged. Interested participants who have published relevant academic papers may submit these as a position paper, optionally with a short abstract explaining their interest and the paper’s relevance to the workshop. The workshop itself will be focused on discussions based on the position paper topics received.
+All inputs submitted and considered relevant will be published on the workshop website. The organizers will issue invitations based on the submissions received. 
 
-All inputs submitted and considered relevant will be published on the workshop website. The organizers will issue invitations based on the submissions received. Sessions will be organized according to content, and not every accepted submission or invited attendee will have an opportunity to present; the intent is to foster an active discussion and not simply to have a sequence of presentations. The workshop may also include breakout sessions. A workshop report covering all submissions and discussions will be published afterward.
+Sessions will be organized according to content, and not every accepted submission or invited attendee will have an opportunity to present; the intent is to foster an active discussion and not simply to have a sequence of presentations. The workshop may also include breakout sessions. A workshop report covering all submissions and discussions will be published afterward.
 
 The workshop will be by invitation only. Those wishing to attend should submit a "position paper" or "expressions of interest" to address the above topics and questions. Position papers from those not planning to participate in the workshop themselves are also encouraged.
 
-Additionally, we request network operators to complete the survey to help us better understand current network management practices, challenges, and future needs. The survey responses will provide valuable input for the workshop - https://ietf.iad1.qualtrics.com/jfe/form/SV_9vQxBRiZqDntarc .
-
-The online workshop would likely be three 2-3h sessions spread over the week based on submissions and the availability of the invited participants.
+The online workshop would likely be three 2-3 hour sessions spread over the week based on submissions and the availability of the invited participants.
 
 ## Logistics This workshop will be held online.
 
-Initial submissions due: 2024-11-17 EOD (Earlier submissions are appreciated)
-Survey responses due: 2024-11-17 EOD
-Invitations Issued by: 2024-11-27 EOD
-Workshop Dates : TBD -- Maybe June, July, or Sept
-Workshop Times: 15:00-18:00 UTC (TBD)
-Program Committee: TBD
+Initial submissions due: 2025-06-02 EOD (Earlier submissions are appreciated)
+Invitations Issued by: 2025-06-16 EOD
+Workshop Dates : TBD -- Possibly the week of August 4 or September 8
+Workshop Times: XX:00 - XX:00 UTC (TBD)
+Program Committee: Glenn Deen (SVTA, NBCUniversal), Jana Iyengar (IAB, Fastly), Warren Kumari (IAB, Google), Jason Livingood (IAB, Comcast), Tommy Pauly (IAB, Apple)
 Feel free to contact the Program Committee with any further questions: XXXX.
 
 
@@ -75,6 +72,7 @@ Name   		IAB Workshop on IP Address Geolocation (IP-Geo)
 Acronym		ip-geo
 
 Personnel (Co-Chairs & Program Committee)
+Glenn Deen
 Jana Iyengar
 Warren Kumari
 Jason Livingood
@@ -98,9 +96,9 @@ All inputs submitted and considered relevant will be published on the workshop w
 
 The workshop will be by invitation only. Those wishing to attend should submit a 1 - 3 page position paper to address the above topics and questions. Position papers from those not planning to attend the workshop themselves are also encouraged.
 
-Please indicate your interest by submitting a research proposal by June 1, 2025 to ip-geo-workshop-pc@iab.org
+Please indicate your interest by submitting a research proposal by June 2, 2025 to ip-geo-workshop-pc@iab.org
 
-The Program Committee members are Jana Iyengar (IAB, Fastly), Warren Kumari (IAB, Google), Jason Livingood (IAB, Comcast), Tommy Pauly (IAB, Apple).
+The Program Committee members are Glenn Deen (SVTA, NBCUniversal), Jana Iyengar (IAB, Fastly), Warren Kumari (IAB, Google), Jason Livingood (IAB, Comcast), Tommy Pauly (IAB, Apple).
 
 Feel free to contact the program committee with any further questions: ip-geo-workshop-pc@iab.org.
 
