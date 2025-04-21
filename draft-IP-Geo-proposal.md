@@ -1,6 +1,6 @@
 # IAB Workshop on IP Geolocation (IP-Geo)
 
-# Introduction
+## Introduction
 
 This workshop aims to understand the current use cases for publishing and consuming IP address geolocation data. It will explore current methods for publishing this type of data, as well as how the data feeds are discovered and used. It will identify any gaps or other issues, such as uniform methods for discovering an IP-geo data feed, how it can be validated to establish trust and authority, how it can balance end user privacy and localization, and how current practices might be improved. 
 
@@ -31,12 +31,12 @@ Actionable requirements for IP address geolocation, including:
 
 * Issues not related to the technical aspects of publishing and consuming IP address geolocation data, particularly related to local laws on data privacy or data protection.
 
-# Expected Output
+## Expected Output
 
 * Workshop report
 * Depending upon the discussion, the start of a new specification for IP Address Geolocation
 
-# Pre-Workshop Information Gathering & Outreach
+## Pre-Workshop Information Gathering & Outreach
 
 The most interested parties are likely to be Internet Service Providers (ISPs), as well as operators of Virtual Private Networks and Privacy Proxy Networks (e.g., using MASQUE). These parties are publishers of IP Address Geolocation data. Also interested will be content destinations that wish to perform content localization, particularly video streaming providers (given video streaming is tha majority of peak-hour volume on the internet) and Content Delivery Networks (CDNs). Finally there are a number of major IP geolocation value added providers that collect and aggregate this data today, in order to serve content destination provider needs. There are of course many other current users of this data; these examples are not intended to be exclusive. 
 
@@ -44,7 +44,7 @@ Outreach should thus be to member of Regional Internet Registries (RIRs), which 
 
 The mailing list ip-geo-workshop@iab.org will be used for general announcements and related discussions before (and after) the workshop.
 
-# Workshop
+# Workshop Solicitation
 
 Interested participants in the workshop are invited to submit position papers on the workshop topics. There are no restrictions on the format but submission as PDF is preferred. Paper length is limited to 3 pages; brevity is encouraged. Interested participants who have published relevant academic papers may submit these as a position paper, optionally with a short abstract explaining their interest and the paper’s relevance to the workshop. The workshop itself will be focused on discussions based on the position paper topics received.
 
@@ -56,29 +56,29 @@ The workshop will be by invitation only. Those wishing to attend should submit a
 
 The online workshop would likely be three 2-3 hour sessions spread over the week based on submissions and the availability of the invited participants.
 
-## Logistics This workshop will be held online.
+## Logistics: This workshop will be held online.
 
-Initial submissions due: 2025-06-02 EOD (Earlier submissions are appreciated)
-Invitations Issued by: 2025-06-16 EOD
-Workshop Dates : TBD -- Possibly the week of August 4 or September 8
-Workshop Times: XX:00 - XX:00 UTC (TBD)
-Program Committee: Glenn Deen (SVTA, NBCUniversal), Jana Iyengar (IAB, Fastly), Warren Kumari (IAB, Google), Jason Livingood (IAB, Comcast), Tommy Pauly (IAB, Apple)
-Feel free to contact the Program Committee with any further questions: XXXX.
+* Initial submissions due: 2025-06-02 EOD (Earlier submissions are appreciated)
+* Invitations Issued by: 2025-06-16 EOD
+* Workshop Dates : TBD -- Possibly the week of August 4 or September 8
+* Workshop Times: XX:00 - XX:00 UTC (TBD)
+* Program Committee: Glenn Deen (SVTA, NBCUniversal), Jana Iyengar (IAB, Fastly), Warren Kumari (IAB, Google), Jason Livingood (IAB, Comcast), Tommy Pauly (IAB, Apple)
+* Feel free to contact the Program Committee with any further questions: XXXX.
 
 
 # Mailing List Info
 
-Name   		IAB Workshop on IP Address Geolocation (IP-Geo)
-Acronym		ip-geo
+## Name   		IAB Workshop on IP Address Geolocation (IP-Geo)
+## Acronym		ip-geo
 
-Personnel (Co-Chairs & Program Committee)
-Glenn Deen
-Jana Iyengar
-Warren Kumari
-Jason Livingood
-Tommy Pauly
+## Personnel (Co-Chairs & Program Committee)
+* Glenn Deen
+* Jana Iyengar
+* Warren Kumari
+* Jason Livingood
+* Tommy Pauly
 
-Group Description
+## Group Description
 
 This workshop aims to understand the current use cases for publishing and consuming IP address geolocation data. It will explore current methods for publishing this type of data, as well as how the data feeds are discovered and used. It will identify any gaps or other issues, such as uniform methods for discovering an IP-geo data feed, how it can be validated to establish trust and authority, how it can balance end user privacy and localization, and how current practices might be improved. 
 
